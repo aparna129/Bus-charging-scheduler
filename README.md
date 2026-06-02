@@ -14,25 +14,25 @@
 - Perfect Chronological Alignment: Time formatting tracks seamlessly across the midnight barrier, displaying clear HH:MM 24-hour clock strings.
 
 3. Project Directory Structure:
-bus-charging-scheduler/
+   bus-charging-scheduler/
    data/
-      scenario_1.json
-      scenario_2.json
-      scenario_3.json
-      scenario_4.json
-      scenario_5.json
+   scenario_1.json
+   scenario_2.json
+   scenario_3.json
+   scenario_4.json
+   scenario_5.json
    scheduler/
-      scheduler_engine.py
+   scheduler_engine.py
    utils/
-      time_utils.py
+   time_utils.py
    app.py
    ARCHITECTURE.md
    README.md
    requirements.txt
 
 4. Installation & Setup Instructions:
-4.1 Prerequisites
-Make sure you have Python 3.10+ installed on your machine.
+   4.1 Prerequisites
+   Make sure you have Python 3.10+ installed on your machine.
 
 4.2 Step 1: Install Required Libraries
 Open your terminal or command prompt, navigate to your project directory, and install Streamlit:
@@ -48,7 +48,7 @@ http://localhost:8501
 (If it doesn't open automatically, you can copy and paste that address into your browser).
 
 5. How to Use the Application:
-Select a Scenario: Use the "Choose Scenario" dropdown at the very top of the webpage to select any scenario (Scenario 1 to Scenario 5).
+   Select a Scenario: Use the "Choose Scenario" dropdown at the very top of the webpage to select any scenario (Scenario 1 to Scenario 5).
 
 Review Per-Bus Timetables: Look through the "📌 Per Bus Timetable" section to trace individual bus paths, view their custom departure/arrival times, and look inside their expandable timeline logs to track exactly when they arrive and finish charging.
 
