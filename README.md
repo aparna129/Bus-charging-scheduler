@@ -31,25 +31,25 @@ bus-charging-scheduler/
    requirements.txt
 
 4. Installation & Setup Instructions:
-4.1 Prerequisites
-Make sure you have Python 3.10+ installed on your machine.
+   4.1 Prerequisites
+   Make sure you have Python 3.10+ installed on your machine.
 
-4.2 Step 1: Install Required Libraries
-Open your terminal or command prompt, navigate to your project directory, and install Streamlit:
-pip install streamlit
+   4.2 Step 1: Install Required Libraries
+   Open your terminal or command prompt, navigate to your project directory, and install Streamlit:
+   pip install streamlit
 
-4.3 Step 2: Run the Application
-Launch the local Streamlit web server by running:
-streamlit run app.py
+   4.3 Step 2: Run the Application
+   Launch the local Streamlit web server by running:
+   streamlit run app.py
 
-4.4 Step 3: View the Dashboard
-Once the server starts, it will automatically open your default web browser to:
-http://localhost:8501
-(If it doesn't open automatically, you can copy and paste that address into your browser).
+   4.4 Step 3: View the Dashboard
+   Once the server starts, it will automatically open your default web browser to:
+   http://localhost:8501
+   (If it doesn't open automatically, you can copy and paste that address into your browser).
 
 5. How to Use the Application:
-Select a Scenario: Use the "Choose Scenario" dropdown at the very top of the webpage to select any scenario (Scenario 1 to Scenario 5).
+   Select a Scenario: Use the "Choose Scenario" dropdown at the very top of the webpage to select any scenario (Scenario 1 to Scenario 5).
 
-Review Per-Bus Timetables: Look through the "📌 Per Bus Timetable" section to trace individual bus paths, view their custom departure/arrival times, and look inside their expandable timeline logs to track exactly when they arrive and finish charging.
+   Review Per-Bus Timetables: Look through the "📌 Per Bus Timetable" section to trace individual bus paths, view their custom      departure/arrival times, and look inside their expandable timeline logs to track exactly when they arrive and finish charging.
 
-Verify Station Queues: Scroll to the bottom "🏁 Station-wise Queue (Final Schedule)" section to examine the fleet from the charging stations' perspective. Verify that no two buses share an overlapping slot and that all queues are ordered perfectly by time.
+   Verify Station Queues: Scroll to the bottom "🏁 Station-wise Queue (Final Schedule)" section to examine the fleet from the charging stations' perspective. Verify that no two buses share an overlapping slot and that all queues are ordered perfectly by time.
